@@ -71,8 +71,7 @@ namespace Program // Note: actual namespace depends on the project name.
         public static void pickAlgorithm(int[,] matrix)
         {
             Sort sort = MatrixSortMax.sort;
-            Console.WriteLine();
-            Console.WriteLine("1 — сортировка по сумме элементов");
+            Console.WriteLine("\n1 — сортировка по сумме элементов");
             Console.WriteLine("2 — сортировка по максимальному элементу");
             Console.WriteLine("3 — сортировка по минимальному элементу");
             char c = Convert.ToChar(Console.ReadKey().KeyChar);
